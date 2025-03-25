@@ -10,9 +10,10 @@
 <form action="" class="">
     <div class="border w-30 h-30 rounded-xl justify-self-center mt-40 text-center w-107 h-130 shadow-xl">
 
-        <div style="background-img: ./img/package.box.png" 
-        class="border justify-self-center w-30 h-30 mt-10 rounded-2xl "></div>
+        <div style="background-img: ./img/package.box.png"
+        class="border justify-self-center w-30 h-30 mt-10 rounded-2xl font-bold"></div>
         
+        <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
         <button class="text-center justify-self-center mt-30 w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">ENTRAR</button>
 
