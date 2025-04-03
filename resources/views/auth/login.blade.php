@@ -15,26 +15,26 @@
 </head>
 <body>
     <form action="" class="">
-    <div class="rounded-xl justify-self-center mt-40 text-center w-112 h-187 shadow-xl bg-neutral-100 pt-12 border">
+    <div class="rounded-xl justify-self-center mt-17 text-center w-112 h-189 shadow-xl bg-neutral-100 pt-12">
 
         <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
         
         <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
-        <div class="border rounded-xl shadow-2xl w-90 h-105 justify-self-center mt-25">
+        <div class="rounded-xl shadow-xl w-90 h-107 justify-self-center mt-25 pt-2">
 
             <h2 style="font-family: K2D" class="text-4xl font-bold mt-4">LOGIN</h2>
 
             <p style="font-family: K2D" class="mt-10 flex pl-6 text-lg font-bold">E-mail ou CPF:</p>
-            <input type="email" class="border justify-self-center w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 pl-2 shadow-2xl" style="font-family: K2D" placeholder="Usuario@gmail.com">
+            <input type="email" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="Usuario@gmail.com">
 
-            <p style="font-family: K2D" class="mt-6 flex pl-6 text-lg font-bold">Senha:</p>
-            <input type="password" class="border justify-self-center w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 pl-2 shadow-2xl" style="font-family: K2D" placeholder="*************">
-            <a href="" class="flex pl-6 text-yellow-300" style="font-family: K2D">Esqueceu a senha?</a>
+            <p style="font-family: K2D" class="mt-4 flex pl-6 text-lg font-bold">Senha:</p>
+            <input type="password" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="*************">
+            <a href="" class="flex pl-6 text-orange-400" style="font-family: K2D">Esqueceu a senha?</a>
 
-            <button class="w-25 h-12 border mt-8 rounded-xl bg-indigo-800 text-slate-100">ENTRAR</button>
+            <button class="w-40 h-12 border mt-6 rounded-xl bg-neutral-800 text-slate-100">ENTRAR</button>
 
-            <a class="cursor-pointer flex justify-self-center font-bold text-yellow-300" style="font-family: K2D">Não possui uma conta? Cadastre-se</a>
+            <a class="cursor-pointer flex justify-self-center font-bold text-orange-400 mt-6" style="font-family: K2D">Não possui uma conta? Cadastre-se</a>
         </div>
 
     </div>
