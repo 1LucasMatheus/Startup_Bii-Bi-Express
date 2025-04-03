@@ -1,25 +1,43 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="">
+    <div class="rounded-xl justify-self-center mt-40 text-center w-112 h-187 shadow-xl bg-neutral-100 pt-12 border">
 
-<form action="" class="">
-    <div class="border w-30 h-30 rounded-xl justify-self-center mt-40 text-center w-107 h-130 shadow-xl">
-
-        <div style="background-img: ./img/package.box.png"
-        class="border justify-self-center w-30 h-30 mt-10 rounded-2xl font-bold"></div>
+        <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
         
         <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
-        <button class="text-center justify-self-center mt-30 w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">ENTRAR</button>
+        <div class="border rounded-xl shadow-2xl w-90 h-105 justify-self-center mt-25">
 
-        <button class="text-center justify-self-center mt-10 w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">REGISTRAR-SE</button>
+            <h2 style="font-family: K2D" class="text-4xl font-bold mt-4">LOGIN</h2>
 
-        <a class="mt-14 cursor-pointer flex justify-self-center" style="font-family: K2D">Ajuda</a>
+            <p style="font-family: K2D" class="mt-10 flex pl-6 text-lg font-bold">E-mail ou CPF:</p>
+            <input type="email" class="border justify-self-center w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 pl-2 shadow-2xl" style="font-family: K2D" placeholder="Usuario@gmail.com">
+
+            <p style="font-family: K2D" class="mt-6 flex pl-6 text-lg font-bold">Senha:</p>
+            <input type="password" class="border justify-self-center w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 pl-2 shadow-2xl" style="font-family: K2D" placeholder="*************">
+            <a href="" class="flex pl-6 text-yellow-300" style="font-family: K2D">Esqueceu a senha?</a>
+
+            <button class="w-25 h-12 border mt-8 rounded-xl bg-indigo-800 text-slate-100">ENTRAR</button>
+
+            <a class="cursor-pointer flex justify-self-center font-bold text-yellow-300" style="font-family: K2D">Não possui uma conta? Cadastre-se</a>
+        </div>
+
     </div>
-</form>
-
+    </form>
+</body>
+</html>
