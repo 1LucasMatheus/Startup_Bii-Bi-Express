@@ -1,52 +1,79 @@
-<x-guest-layout>
-    <form method="POST" action="{{ route('register') }}">
-        @csrf
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
-        <!-- Name -->
-        <div>
-            <x-input-label for="name" :value="__('Name')" />
-            <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
-            <x-input-error :messages="$errors->get('name')" class="mt-2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <?php
+
+    <form action="" class="">
+    <div class="rounded-xl justify-self-center mt-13 text-center w-112 h-197 shadow-xl bg-neutral-100 pt-12">
+
+        <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
+        
+        <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
+
+        <div class="rounded-xl shadow-xl w-90 h-137 justify-self-center mt-4 pt-2">
+
+            <h2 style="font-family: K2D" class="text-4xl font-bold mt-4">LOGIN</h2>
+
+            <p style="font-family: K2D" class="mt-10 flex pl-6 text-lg font-bold">E-mail:</p>
+            <input type="email" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="Usuario@gmail.com">
+
+            <p style="font-family: K2D" class="mt-2 flex pl-6 text-lg font-bold">CPF:</p>
+            <input type="password" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="000.000.000-00">
+            
+            <p style="font-family: K2D" class="mt-2 flex pl-6 text-lg font-bold">Senha:</p>
+            <input type="email" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="***********">
+
+            <p style="font-family: K2D" class="mt-2 flex pl-6 text-lg font-bold">Confirme sua senha:</p>
+            <input type="email" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="***********">
+
+            <button class="w-40 h-12 border mt-6 rounded-xl bg-neutral-800 text-slate-100 cursor-pointer">ENTRAR</button>
+
+            <a class="cursor-pointer flex justify-self-center font-bold text-orange-400 mt-2" style="font-family: K2D">Já possui uma conta? Entrar</a>
         </div>
 
-        <!-- Email Address -->
-        <div class="mt-4">
-            <x-input-label for="email" :value="__('Email')" />
-            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
-            <x-input-error :messages="$errors->get('email')" class="mt-2" />
-        </div>
-
-        <!-- Password -->
-        <div class="mt-4">
-            <x-input-label for="password" :value="__('Password')" />
-
-            <x-text-input id="password" class="block mt-1 w-full"
-                            type="password"
-                            name="password"
-                            required autocomplete="new-password" />
-
-            <x-input-error :messages="$errors->get('password')" class="mt-2" />
-        </div>
-
-        <!-- Confirm Password -->
-        <div class="mt-4">
-            <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
-
-            <x-text-input id="password_confirmation" class="block mt-1 w-full"
-                            type="password"
-                            name="password_confirmation" required autocomplete="new-password" />
-
-            <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
-        </div>
-
-        <div class="flex items-center justify-end mt-4">
-            <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('login') }}">
-                {{ __('Already registered?') }}
-            </a>
-
-            <x-primary-button class="ms-4">
-                {{ __('Register') }}
-            </x-primary-button>
-        </div>
+    </div>
     </form>
-</x-guest-layout>
+
+
+    <form action="" class="">
+    <div class="rounded-xl justify-self-center mt-13 text-center w-112 h-189 shadow-xl bg-neutral-100 pt-12">
+
+        <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
+        
+        <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
+
+        <div class="rounded-xl shadow-xl w-90 h-107 justify-self-center mt-25 pt-2">
+
+            <h2 style="font-family: K2D" class="text-4xl font-bold mt-4">INFORMAÇÃO DO VEÍCULO</h2>
+
+            <p style="font-family: K2D" class="mt-10 flex pl-6 text-lg font-bold">Porte do veículo:</p>
+            <input type="password" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="Grande, Médio ou Pequeno">
+
+            <p style="font-family: K2D" class="mt-2 flex pl-6 text-lg font-bold">Placa:</p>
+            <input type="password" class="justify-self-center w-80 h-12 rounded-xl bg-neutral-100 text-gray-800 pl-2 shadow-2xl" style="font-family: K2D" placeholder="000.000.000-00">
+
+            <button class="w-40 h-12 border mt-6 rounded-xl bg-neutral-800 text-slate-100 cursor-pointer">ENTRAR</button>
+
+            <a class="cursor-pointer flex justify-self-center font-bold text-orange-400 mt-2" style="font-family: K2D">Já possui uma conta? Entrar</a>
+        </div>
+
+    </div>
+    </form>
+
+    ?>
+</body>
+</html>
