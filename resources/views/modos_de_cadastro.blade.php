@@ -15,17 +15,26 @@
 </head>
 <body>
     <form action="" class="">
-    <div class="w-30 h-30 rounded-xl justify-self-center mt-40 text-center w-107 h-138 shadow-xl bg-neutral-100 pt-12">
+    <div class="rounded-xl justify-self-center mt-40 text-center w-107 h-158 shadow-xl bg-neutral-100 pt-12 border">
 
         <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
         
         <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
-        <button class="text-center justify-self-center mt-30 w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">ENTRAR</button>
+        <div class="border w-85 h-70 justify-self-center shadow-2xl rounded-xl mt-25">
+            
+            <p style="font-family: Nunito" class="mt-4 font-bold">Como deseja se cadastrar?</p>
 
-        <button class="text-center justify-self-center mt-10 w-80 h-13 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">REGISTRAR-SE</button>
+            <button class="text-center justify-self-center mt-10 w-70 h-11 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">USUÁRIO</button>
 
-        <a class="mt-14 cursor-pointer flex justify-self-center" style="font-family: K2D">Ajuda</a>
+            <button class="text-center justify-self-center mt-5 w-70 h-11 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">ENTREGADOR</button>
+
+            <button class="text-center justify-self-center mt-5 w-70 h-11 rounded-xl cursor-pointer bg-neutral-800 text-slate-50 text-2xl" style="font-family: nunito">EMPRESA</button>
+
+        </div>
+
+        <a class="mt-6 cursor-pointer flex justify-self-center" style="font-family: K2D">Ajuda</a>
+
     </div>
     </form>
 </body>
