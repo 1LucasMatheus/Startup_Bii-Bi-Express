@@ -20,7 +20,7 @@
     <form action="" class="">
     <div class="rounded-xl justify-self-center mt-13 text-center w-112 h-197 shadow-xl bg-neutral-100 pt-12">
 
-        <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
+        <div style="background-image: ../img/LogoBiBii-Express.png" class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
         
         <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
@@ -52,7 +52,7 @@
     <form action="" class="">
     <div class="rounded-xl justify-self-center mt-13 text-center w-112 h-197 shadow-xl bg-neutral-100 pt-12">
 
-        <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
+        <div style="background-image: ../img/LogoBiBii-Express.png" class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
         
         <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
