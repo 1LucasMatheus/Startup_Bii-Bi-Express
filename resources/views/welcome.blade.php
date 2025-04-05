@@ -17,7 +17,7 @@
     <form action="" class="">
     <div class="w-30 h-30 rounded-xl justify-self-center mt-40 text-center w-107 h-138 shadow-xl bg-neutral-100 pt-12">
 
-        <div class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
+        <div style="background-image: ../auth/img/LogoBiBii-Express.png" class="border justify-self-center w-30 h-30 rounded-2xl font-bold"></div>
         
         <h2 class="justify-self-center text-2xl" style="font-family: K2D">Bii-Bi Express</h2>
 
