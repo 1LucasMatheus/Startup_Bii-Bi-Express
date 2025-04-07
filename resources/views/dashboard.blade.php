@@ -22,10 +22,12 @@
     <!---Dashboard do Usuário-->
     <nav class="h-30 shadow bg-slate-900">
 
-      <h1 style="font-family: Agbalumo" class="text-slate-50 text-center flex pt-6 pl-6 text-6xl sm:text-2xl md:text-3xl xl:text-6xl">Bii-bi Express</h1>
+      <h1 style="font-family: Agbalumo" class="border-3 border-yellow-200 text-slate-50 text-center flex pt-6 pl-6 text-6xl w-105">Bii-bi Express</h1>
 
-      <div class="w-10 h-10 rounded-full border justify-self-end flex mr-6"></div>
-      <div class="w-10 h-10 rounded-full border justify-self-end flex mr-12"></div>
+      <div class="flex border border-indigo-300 justify-self-end">
+          <div class="w-10 h-10 rounded-full border border-orange-300 mr-6"></div>
+          <div class="w-10 h-10 rounded-full border border-orange-300"></div>
+      </div>
 
     </nav>
 
