@@ -22,13 +22,11 @@
     <!---Dashboard do Usuário-->
     <nav class="h-30 shadow bg-slate-900">
 
-      <div class="flex justify-self-center border-4 border-indigo-300 pt-8">
-          <h1 class="text-slate-50">Bii-Bi Express</h1>
+      <div class="flex justify-self-center pt-8">
+          <h1 style="font-family: Agbalumo" class="text-slate-50 text-6xl justify-self-start w-100 sm:mr-20 md:mr-50 lg:mr-100 xl:mr-330 ">Bii-Bi Express</h1>
           <div class="w-16 h-16 rounded-full border border-slate-50 mr-6"></div>
           <div class="w-16 h-16 rounded-full border border-slate-50 mr-4"></div>
       </div>
-
-      
 
     </nav>
 
@@ -36,8 +34,8 @@
 
     <div class="grid grid-col-3 justify-items-center pt-14 justify-items-center pt-12">
       <div class="border col-span-1 col-start-1 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50 xl:w-100  sm:h-20 md:h-30 lg:h-50 xl:h-100"></div>
-      <div class="border h-65 col-span-1 col-start-2 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50"></div>
-      <div class="border h-65 col-span-1 col-start-3 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50"></div>
+      <div class="border h-65 col-span-1 col-start-2 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50 xl:w-100  sm:h-20 md:h-30 lg:h-50 xl:h-100"></div>
+      <div class="border h-65 col-span-1 col-start-3 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50 xl:w-100  sm:h-20 md:h-30 lg:h-50 xl:h-100"></div>
     </div>
 
     <h3 style="font-family: Nunito" class="mt-10 text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Entregadores</h3>
