@@ -19,69 +19,136 @@
 </head>
 <body>
 <?php
-        <!---Dashboard da Empresa-->
-    <nav class="h-30 shadow bg-slate-900 mt-30">
+    <!---Dashboard do Usuário-->
+    <nav class="h-30 shadow bg-slate-900">
 
-      <h1 style="font-family: Agbalumo" class="text-slate-50 text-center flex pt-6 pl-6 text-6xl sm:text-2xl md:text-3xl xl:text-6xl">Bii-bi Express</h1>
-
-      <div class="w-10 h-10 rounded-full border justify-self-end flex mr-6"></div>
-      <div class="w-10 h-10 rounded-full border justify-self-end flex mr-12"></div>
+      <div class="flex pt-8">
+          <h1 style="font-family: Agbalumo" class="text-slate-50 text-6xl justify-self-start w-100 sm:mr-20 md:mr-50 lg:mr-100 xl:mr-330 ">Bii-Bi Express</h1>
+          <div class="size-14 rounded-full border border-slate-50 mr-6 justify-self-end"></div>
+          <div class="size-14 rounded-full border border-slate-50 mr-4"></div>
+      </div>
 
     </nav>
 
     <h3 style="font-family: Nunito" class="mt-10 text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Estatísticas</h3>
 
-    <div class="grid grid-col-3 justify-items-center pt-14 justify-items-center pt-12">
-      <div style="font-family: Nunito" class="border w-120 h-75 col-span-1 col-start-1 rounded-xl shadow-xl bg-gray-100 sm:w-60,h-40 md:w-85,h-57 xl:w-120,h-75 text-center text-4xl text-slate-50">Pedidos: 340</div>
-      <div style="font-family: Nunito" class="border w-120 h-75 col-span-1 col-start-2 rounded-xl shadow-xl bg-gray-100 sm:w-60,h-40 md:w-85,h-57 xl:w-120,h-75 text-center text-4xl text-slate-50">Entregadores: 12</div>
-      <div style="font-family: Nunito" class="border w-120 h-75 col-span-1 col-start-3 rounded-xl shadow-xl bg-gray-100 sm:w-60,h-40 md:w-85,h-57 xl:w-120,h-75 text-center text-4xl text-slate-50">Avaliações: 1203</div>
+    <div class="flex justify-items-center gap-6 pt-12 justify-items-center pt-12">
+      <div style="font-family: Nunito" class="border h-30 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50 xl:w-100  sm:h-20 md:h-30 lg:h-50 xl:h-100 text-center text-xl font-bold text-slate-50 bg-slate-900 py-7 px-9">
+        <p>Pedidos:</p>
+        <p class="mt-2">200</p>
+      </div>
+
+      <div style="font-family: Nunito" class="border h-30 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50 xl:w-100  sm:h-20 md:h-30 lg:h-50 xl:h-100 text-center text-xl font-bold text-slate-50 bg-orange-300 py-7 px-3">
+        <p>Entregadores:</p>
+        <p class="mt-2">200</p>
+      </div>
+
+      <div style="font-family: Nunito" class="border h-30 rounded-xl shadow-xl bg-gray-100 sm:w-20 md:w-30 lg:w-50 xl:w-100  sm:h-20 md:h-30 lg:h-50 xl:h-100 text-center text-xl font-bold text-slate-50 bg-slate-900 py-7 px-9">
+        <p>Pedidos:</p>
+        <p class="mt-2">200</p>
+      </div>
+
     </div>
 
-    <h3 style="font-family: Nunito" class="mt-10 text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Pedidos</h3>
+    <div class="flex mt-22 w-190">
+      <h3 style="font-family: Nunito" class="text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Pedidos</h3>
 
-    <div class="w-190 h-28 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12">
-        <div class="w-8 h-8 border rounded-full">user</div>
-        <h4 style="font-family: Nunito" class="font-bold flex">nome do user</h4>
-        <p style="font-family: Nunito" class="font-bold flex">comentário</p>
-        <p style="font-family: Nunito" class="font-bold flex">Tamanho:</p>
-        <p style="font-family: Nunito" class="font-bold flex">Frágil:</p>
-        <p style="font-family: Nunito" class="font-bold flex">Distância:</p>
-        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm border justify-self-end cursor-pointer">Ver mais</button>
+      <div class="size-10 border justify-self-end"></div>
     </div>
 
-    <div class="w-190 h-28 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12">
-        <div class="w-8 h-8 border rounded-full">user</div>
-        <h4 style="font-family: Nunito" class="font-bold flex">nome do user</h4>
-        <p style="font-family: Nunito" class="font-bold flex">comentário</p>
-        <p style="font-family: Nunito" class="font-bold flex">Tamanho:</p>
-        <p style="font-family: Nunito" class="font-bold flex">Frágil:</p>
-        <p style="font-family: Nunito" class="font-bold flex">Distância:</p>
-        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm border justify-self-end cursor-pointer">Ver mais</button>
+    <div class="w-190 h-34 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-6">
+      <div class="flex gap-2">
+        <div class="size-11 ml-3 mt-2 border rounded-full"></div>
+        <h4 style="font-family: Nunito" class="font-bold flex my-3 text-2xl">Paulo Augusto</h4>
+      </div>
+        <p style="font-family: Nunito" class="text-gray-200 text-sm ml-3 w-164 mt-2">Tenho um pacote para ser buscado no correio de Russas</p>
+
+      <div class="flex mt-2">
+        <div class="flex">
+          <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Tamanho: <span class="text-gray-200">Médio</span></h3>
+
+          <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Frágil: <div class="size-5 border"></div></h3>
+
+          <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Distância: <span class="text-gray-200">29.7Km</span></h3>
+        </div>
+        
+        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm font-bold border justify-self-end cursor-pointer mr-3 p-1 rounded-sm">Ver mais</button>
+      </div>
     </div>
 
-    <button style="font-family: Nunito" class="text-xl text-slate-50 font-bold bg-slate-800 mt-20 w-190 h-17 border rounded-xl cursor-pointer">Ver mais pedidos</button>
+    <div class="w-190 h-34 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12">
+      <div class="flex gap-2">
+        <div class="size-11 ml-3 mt-2 border rounded-full"></div>
+        <h4 style="font-family: Nunito" class="font-bold flex my-3 text-2xl">Ângelo Lima</h4>
+      </div>
+        <p style="font-family: Nunito" class="text-gray-200 text-sm ml-3 w-164 mt-2">Preciso que busque um pacote para mim nos coreios</p>
 
-    <h3 style="font-family: Nunito" class="mt-25 text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Entregadores</h3>
+      <div class="flex mt-2">
+        <div class="flex">
+          <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Tamanho: <span class="text-gray-200">Pequeno</span></h3>
 
-    <div class="w-190 h-28 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12">
-        <div class="w-8 h-8 border rounded-full">user</div>
-        <h4 style="font-family: Nunito" class="font-bold flex">nome do user</h4>
-        <p style="font-family: Nunito" class="text-gray-100">comentário</p>
-        <h3 style="font-family: Nunito" class="font-bold flex">Empresa: Amazon</h3>
-        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm border justify-self-end cursor-pointer">Ver mais</button>
+          <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Frágil: <div class="size-5 border"></div></h3>
+
+          <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Distância: <span class="text-gray-200">1.5Km</span></h3>
+        </div>
+        
+        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm font-bold border justify-self-end cursor-pointer mr-3 p-1 rounded-sm">Ver mais</button>
+      </div>
+
+      <button class="w-190 h-20 shadow-2xl rounded-md justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12 text-2xl font-bold text-slate-50 bg-slate-900 cursor-pointer">Ver mais pedidos</button>
+
+
+
+
+    <div class="flex mt-22 w-190">
+      <h3 style="font-family: Nunito" class="text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Entregadores</h3>
+
+      <div class="size-10 border justify-self-end"></div>
     </div>
 
-    <div class="w-190 h-28 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-8">
-        <div class="w-8 h-8 border rounded-full">user</div>
-        <h4 style="font-family: Nunito" class="font-bold flex">nome do user</h4>
-        <p style="font-family: Nunito" class="text-gray-100">comentário</p>
-        <h3 style="font-family: Nunito" class="font-bold flex">Empresa: Mercado livre</h3>
-        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm border justify-self-end cursor-pointer">Ver mais</button>
+    <div class="w-190 h-34 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12">
+      <div class="flex gap-2">
+        <div class="size-11 ml-3 mt-2 border rounded-full"></div>
+        <h4 style="font-family: Nunito" class="font-bold flex my-3 text-2xl">Marcus Pierre</h4>
+      </div>
+        <p style="font-family: Nunito" class="text-gray-200 text-sm ml-3 w-164">Me chamo Marcus Pierre e sou entregador da empresa Amazon, levo qualquer entrega que queira e solicitar para buscar</p>
+
+      <div class="flex">
+        <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Empresa: <span class="text-gray-200">Amazon</span></h3>
+        
+        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm font-bold border justify-self-end cursor-pointer mr-3 p-1 rounded-sm">Ver mais</button>
+      </div>
     </div>
 
-    <button style="font-family: Nunito" class="text-xl text-slate-50 font-bold bg-slate-800 mt-20 w-190 h-17 border rounded-xl cursor-pointer">Ver mais entregadores</button>
+    <div class="w-190 h-34 shadow-2xl rounded-xl justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12">
+      <div class="flex gap-2">
+        <div class="size-11 ml-3 mt-2 border rounded-full"></div>
+        <h4 style="font-family: Nunito" class="font-bold flex my-3 text-2xl">Ângela Maia</h4>
+      </div>
+        <p style="font-family: Nunito" class="text-gray-200 text-sm ml-3 w-164">Me chamo Ângela Maia e sou entregadora autônoma, levo qualquer entrega que queira e solicitar para buscar</p>
 
-    <h3 style="font-family: Nunito" class="mt-25 text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Avaliações</h3>
+      <div class="flex">
+        <h3 style="font-family: Nunito" class="font-bold flex ml-3 mt-2">Empresa: <span class="text-gray-200">Sem Empresa</span></h3>
+        
+        <button style="font-family: Nunito" class="bg-orange-300 text-slate-50 text-sm font-bold border justify-self-end cursor-pointer mr-3 p-1 rounded-sm">Ver mais</button>
+      </div>
+    </div>
+
+    <button class="w-190 h-20 shadow-2xl rounded-md justify-self-center border sm:w-70,w-8 md:w-110,h-13 xl:w-190,h-20 mt-12 text-2xl font-bold text-slate-50 bg-slate-900 cursor-pointer">Ver mais pedidos</button>
+
+
+
+    <div class="flex mt-22 w-190">
+      <h3 style="font-family: Nunito" class="text-4xl font-bold justify-self-center sm:text-xl,flex,pl-6 md:text-2xl xl:text-4xl">Avaliações</h3>
+
+      <div class="size-10 border justify-self-end"></div>
+    </div>
+
+    </div>
+    
+    </div>
+  </div>
 ?>
 </body>
 </html>
+    
