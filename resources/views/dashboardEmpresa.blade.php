@@ -20,7 +20,7 @@
 <body>
 <?php
     <!---Dashboard do Usuário-->
-    <nav class="h-30 shadow bg-slate-900">
+    <nav class="h-30 shadow bg-slate-900 w-full fixed">
 
       <div class="flex pt-8">
           <h1 style="font-family: Agbalumo" class="text-slate-50 text-4xl ml-4 justify-self-start w-100">Bii-Bi Express</h1>
@@ -28,7 +28,7 @@
 
     </nav>
 
-    <h3 style="font-family: Nunito" class="mt-10 text-2xl ml-4 font-bold">Estatísticas</h3>
+    <h3 style="font-family: Nunito" class="pt-45 text-4xl ml-4 font-bold">Estatísticas</h3>
 
     <div class="flex gap-8 pt-12 justify-items-center pt-12 justify-self-center">
       <div style="font-family: Nunito" class="border w-40 h-30 rounded-xl shadow-xl bg-gray-100 text-center text-xl font-bold text-slate-50 bg-slate-900 py-7 px-9">
@@ -57,7 +57,7 @@
 
 
 
-    <div class="w-135 h-34 shadow-2xl rounded-xl justify-self-center border mt-12">
+    <div class="w-135 h-34 shadow-2xl rounded-xl justify-self-center border mt-7">
       <div class="flex gap-2">
         <div class="size-11 ml-4 mt-2 border rounded-full"></div>
         <h4 style="font-family: Nunito" class="font-bold flex my-4 text-2xl">Paulo Augusto</h4>
@@ -112,7 +112,7 @@
 
 
 
-    <div class="w-135 h-34 shadow-2xl rounded-xl justify-self-center border mt-12">
+    <div class="w-135 h-34 shadow-2xl rounded-xl justify-self-center border mt-7">
       <div class="flex gap-2">
         <div class="size-11 ml-3 mt-2 border rounded-full"></div>
         <h4 style="font-family: Nunito" class="font-bold flex my-4 text-2xl">Marcus Pierre</h4>
@@ -157,7 +157,7 @@
 
 
 
-    <div class="w-135 h-34 shadow-2xl rounded-xl justify-self-center border mt-12">
+    <div class="w-135 h-34 shadow-2xl rounded-xl justify-self-center border mt-7">
       <div class="flex gap-2">
         <div class="size-11 ml-3 mt-2 border rounded-full"></div>
         <h4 style="font-family: Nunito" class="font-bold flex my-4 text-2xl">Ângela Maia</h4>
